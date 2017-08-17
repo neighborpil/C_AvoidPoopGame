@@ -142,7 +142,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Cgrp.c" />
     <ClCompile Include="MainRoutine.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cgrp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
