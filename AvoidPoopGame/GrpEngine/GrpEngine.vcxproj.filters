@@ -21,10 +21,16 @@
     <ClCompile Include="Cgrp.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CKeyproc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cgrp.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CKeyproc.h">
+      <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

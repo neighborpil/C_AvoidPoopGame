@@ -1,6 +1,8 @@
 ﻿  MainRoutine.c
-c:\study\git\c_avoidpoopgame\avoidpoopgame\grpengine\mainroutine.c(7): warning C4101: 'j': unreferenced local variable
-  Cgrp.c
+c:\study\git\c_avoidpoopgame\avoidpoopgame\grpengine\mainroutine.c(9): warning C4101: 'j': unreferenced local variable
+  CKeyproc.c
+c:\study\git\c_avoidpoopgame\avoidpoopgame\grpengine\ckeyproc.c(9): warning C4013: 'kbhit' undefined; assuming extern returning int
+c:\study\git\c_avoidpoopgame\avoidpoopgame\grpengine\ckeyproc.c(11): warning C4013: 'getch' undefined; assuming extern returning int
   Generating Code...
   GrpEngine.vcxproj -> C:\Study\Git\C_AvoidPoopGame\AvoidPoopGame\Debug\GrpEngine.exe
   GrpEngine.vcxproj -> C:\Study\Git\C_AvoidPoopGame\AvoidPoopGame\Debug\GrpEngine.pdb (Full PDB)

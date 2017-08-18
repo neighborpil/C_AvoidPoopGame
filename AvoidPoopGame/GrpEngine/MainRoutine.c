@@ -1,26 +1,28 @@
 #include <stdio.h>
 #include "Cgrp.h"
+#include "CKeyproc.h"
 
+int posx1, posx2;
 
 void main()
 {
 	int i, j;
 
-	int posx1, posx2;
-	posx1 = 0;
-	posx2 = 0;
+	posx1 = 00;
+	posx2 = 20;
 
 	while (1)
 	{
+		keyProcess();
+		//키 입력을 받을때마다 위치를 변경시킨다
+
 		clrScr();
 
 		posx1++;
-		posx2++;
+		//posx2++;
 
-		if (posx1 > 20)
-			posx1 = 20;
-		if (posx2 > 20)
-			posx2 = 20;
+		if (posx1 >= 40)
+			posx1 = 0;
 
 		setColor(15);
 		gotoxy(0, 0);
@@ -36,11 +38,11 @@ void main()
 
 
 		setColor(14);
-		gotoxy(10 + posx1, 5);
+		gotoxy(posx1, 5);
 		printf("--");
 
 		setColor(10);
-		gotoxy(5 + posx2, 20);
+		gotoxy(posx2, 20);
 		printf("test");
 
 		//윈도우즈32api에서 지원되는 메서드
